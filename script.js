@@ -1,5 +1,8 @@
 // Assign HTML elements to variables
-
+const container = document.getElementById("container");
+const eventsContainer = document.getElementById("events-container");
+const placeholder = document.getElementById("placeholder");
+const addEventBtn = document.getElementById("add-event-btn");
 // Add event form
 
 // Create Event Object
