@@ -1,3 +1,5 @@
+// Assign HTML elements to variables
+
 // Add event form
 
 // Create Event Object
@@ -8,4 +10,9 @@
 
 // Edit event form
 
-// Delete event
+// Update Event Object in localStorage
+
+// Delete event (remove Event Object from localStorage)
+
+
+
