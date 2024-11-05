@@ -15,7 +15,7 @@ body, html {
   background-color: #f4f4f9;
 }
 
-.container {
+#container {
   text-align: center;
   width: 90%;
   max-width: 600px;
@@ -33,7 +33,7 @@ h1 {
 }
 
 /* Events container */
-.events-container {
+#events-container {
   margin: 20px 0;
   padding: 10px;
   min-height: 150px;
@@ -42,7 +42,7 @@ h1 {
 }
 
 /* Placeholder text for empty container */
-.placeholder {
+#placeholder {
   color: #999;
   font-size: 1rem;
 }
