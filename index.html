@@ -8,14 +8,32 @@
 </head>
 <body>
   <div id="container">
-    <h1>Event Countdown</h1>
+    <div id="home-container" >
+      <h1>Event Countdown</h1>
 
-    <div id="events-container" class="events-container">
-      <!-- Events will be dynamically added here -->
-      <p id="placeholder">No events added yet.</p>
+      <div id="events-container">
+        <!-- Events will be dynamically added here -->
+        <p id="placeholder">No events added yet.</p>
+      </div>
+
+      <button id="add-event-btn">Add Event</button>
     </div>
+    <div id="add-event-container" class="hidden">
+      <h1>Add Event</h1>
+      <form id="event-form">
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" name="event-name" required>
 
-    <button id="add-event-btn">Add Event</button>
+        <label for="event-description">Description:</label>
+        <textarea id="event-description" name="event-description" required></textarea>
+
+        <label for="event-date">Event Date:</label>
+        <input type="date" id="event-date" name="event-date" required>
+
+        <button id="save-btn">Save</button>
+      </form>
+      
+    </div>
   </div>
 
   <script src="script.js"></script>

@@ -17,7 +17,7 @@ body, html {
 
 #container {
   text-align: center;
-  width: 90%;
+  width: 400px;
   max-width: 600px;
   padding: 20px;
   background-color: #ffffff;
@@ -48,7 +48,7 @@ h1 {
 }
 
 /* Add event button styling */
-#add-event-btn {
+button {
   padding: 10px 20px;
   font-size: 1rem;
   background-color: #4CAF50;
@@ -59,6 +59,51 @@ h1 {
   transition: background-color 0.3s;
 }
 
-#add-event-btn:hover {
+button:hover {
+  background-color: #45a049;
+}
+
+.hidden{
+  display:none;
+}
+
+#event-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#event-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+#event-form input[type="text"],
+#event-form textarea,
+#event-form input[type="date"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#event-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+#event-form button {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#event-form button:hover {
   background-color: #45a049;
 }
